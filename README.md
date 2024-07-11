@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/R8CIO1DZ2b8" target="_blank">
+    <a  target="_blank">
       <img src="https://github.com/adrianhajdin/zoom-clone/assets/67959015/f09a8421-67d3-45ce-b9bc-a791cdc2774b" alt="Project Banner">
     </a>
   
@@ -13,38 +13,25 @@
   </div>
 
   <h3 align="center">A Zoom Clone</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+  
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+## <a name="table">Table of Contents</a>
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Assets & Code](#snippets)
-6. 🚀 [More](#more)
+1.  [Introduction](#introduction)
+2.  [Tech Stack](#tech-stack)
+3. [Features](#features)
+4.  [Quick Start](#quick-start)
+5.  [Assets & Code](#snippets)
+6.  [Links](#links)
+7.  [Contributing](#contributing)
+8.  [Contact](#contact)
 
-## 🚨 Tutorial
-
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
-
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
-
-<a href="https://youtu.be/R8CIO1DZ2b8" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
-
-## <a name="introduction">🤖 Introduction</a>
+## <a name="introduction"> Introduction</a>
 
 Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 30 thousand members. It's a place where people help each other out.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
-
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## <a name="tech-stack"> Tech Stack</a>
 
 - Next.js
 - TypeScript
@@ -53,34 +40,31 @@ If you're getting started and need assistance or face any bugs, join our active 
 - shadcn
 - Tailwind CSS
 
-## <a name="features">🔋 Features</a>
+## <a name="features"> Features</a>
 
 
-👉 **Authentication**: Implements authentication and authorization features using Clerk, allowing users to securely log in via social sign-on or traditional email and password methods, while ensuring appropriate access levels and permissions within the platform.
+1. **Authentication**: Utilizes Clerk for robust authentication and authorization, enabling secure user logins via social sign-on or traditional email and password methods, while ensuring appropriate access levels and permissions across the platform.
 
-👉 **New Meeting**: Quickly start a new meeting, configuring camera and microphone settings before joining.
+2. **New Meeting**: Effortlessly start new meetings, with the ability to configure camera and microphone settings prior to joining.
 
-👉 **Meeting Controls**: Participants have full control over meeting aspects, including recording, emoji reactions, screen sharing, muting/unmuting, sound adjustments, grid layout, participant list view, and individual participant management (pinning, muting, unmuting, blocking, allowing video share).
+3. **Meeting Controls**: Participants can fully manage meeting elements, including recording, emoji reactions, screen sharing, muting/unmuting, sound adjustments, grid layout, participant list view, and individual participant management (pinning, muting, unmuting, blocking, allowing video sharing).
 
-👉 **Exit Meeting**: Participants can leave a meeting, or creators can end it for all attendees.
+4. **Exit Meeting**: Participants have the option to leave a meeting, while meeting creators can end the session for all attendees.
 
-👉 **Schedule Future Meetings**: Input meeting details (date, time) to schedule future meetings, accessible on the 'Upcoming Meetings' page for sharing the link or immediate start.
+5. **Schedule Future Meetings**: Easily schedule future meetings by entering details such as date and time, accessible on the 'Upcoming Meetings' page for link sharing or immediate commencement.
+6. **Past Meetings List**: Access a list of previously held meetings, including details and metadata.
 
-👉 **Past Meetings List**: Access a list of previously held meetings, including details and metadata.
+7. **View Recorded Meetings**: Access a detailed list of previously held meetings, including all relevant details and metadata.
 
-👉 **View Recorded Meetings**: Access recordings of past meetings for review or reference.
+8. **Personal Room**: Each user has a personal meeting room with a unique link, facilitating instant meetings that can be shared with others.
 
-👉 **Personal Room**: Users have a personal room with a unique meeting link for instant meetings, shareable with others.
+9. **Join Meetings via Link**: Seamlessly join meetings organized by others by simply providing the meeting link
 
-👉 **Join Meetings via Link**: Easily join meetings created by others by providing a link.
+10. **Secure Real-time Functionality**: Ensures all interactions within the platform are secure and occur in real-time, upholding user privacy and data integrity.
 
-👉 **Secure Real-time Functionality**: All interactions within the platform are secure and occur in real-time, maintaining user privacy and data integrity.
+11. **Responsive Design**: Adheres to responsive design principles, guaranteeing an optimal user experience across various devices and screen sizes.
 
-👉 **Responsive Design**: Follows responsive design principles to ensure optimal user experience across devices, adapting seamlessly to different screen sizes and resolutions.
-
-and many more, including code architecture and reusability. 
-
-## <a name="quick-start">🤸 Quick Start</a>
+## <a name="quick-start"> Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
 
@@ -94,9 +78,10 @@ Make sure you have the following installed on your machine:
 
 **Cloning the Repository**
 
+To get started with this project, you can clone the repository using the following command:
+
 ```bash
-git clone https://github.com/adrianhajdin/zoom-clone.git
-cd zoom-clone
+   git clone https://github.com/JaivardhanPadhy/VideoConferencing-Website.git
 ```
 
 **Installation**
@@ -104,7 +89,7 @@ cd zoom-clone
 Install the project dependencies using npm:
 
 ```bash
-npm install
+   npm install
 ```
 
 **Set Up Environment Variables**
@@ -132,7 +117,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-## <a name="snippets">🕸️ Snippets</a>
+## <a name="snippets">Snippets</a>
 
 <details>
 <summary><code>app/globals.css</code></summary>
@@ -431,29 +416,30 @@ export default MeetingCard;
 
 </details>
 
-## <a name="links">🔗 Links</a>
+## <a name="links">Links</a>
 
-Public assets used in the project can be found [here](https://drive.google.com/file/d/1ofTpWii_sCIdJ14uQ431xWVXpYgjtQ8Q/view?usp=sharing)
+- [Saas Podcast Platform](https://github.com/JaivardhanPadhy/Saas-Podcast-Platform)
+- [Brainwave Modern Website](https://github.com/JaivardhanPadhy/Brainwave-AI)
+- [Dashboard Application](https://github.com/JaivardhanPadhy/Dashboard)
 
-## <a name="more">🚀 More</a>
 
-**Advance your skills with Next.js 14 Pro Course**
+## <a name="contributing">Contributing</a>
+We welcome contributions to the Saas-Podcast-Platform! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request. Follow these steps to contribute:
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+1.Fork the repository.
+   - Create a new branch
+     ``` bash
+      (git checkout -b feature-branch)
+     ```
 
-<a href="https://jsmastery.pro/next14" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/557837ce-f612-4530-ab24-189e75133c71" alt="Project Banner">
-</a>
+2.Make your changes.
+   - Commit your changes 
+       ```  bash
+             (git commit -m 'Add some feature')
+       ```
 
-<br />
-<br />
+3.Push to the branch (git push origin feature-branch).
+   - Open a pull request.
 
-**Accelerate your professional journey with the Expert Training program**
-
-And if you're hungry for more than just a course and want to understand how we learn and tackle tech challenges, hop into our personalized masterclass. We cover best practices, different web skills, and offer mentorship to boost your confidence. Let's learn and grow together!
-
-<a href="https://www.jsmastery.pro/masterclass" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/fed352ad-f27b-400d-9b8f-c7fe628acb84" alt="Project Banner">
-</a>
-
-#
+## <a name="contact">Contact</a>
+For any questions or inquiries, please contact us at theofficialjaivp@gmail.com.
