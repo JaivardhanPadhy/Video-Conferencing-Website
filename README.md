@@ -424,7 +424,7 @@ export default MeetingCard;
 
 
 ## <a name="contributing">Contributing</a>
-We welcome contributions to the Saas-Podcast-Platform! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request. Follow these steps to contribute:
+We welcome contributions to the Yoom-Videoconferencing Website! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request. Follow these steps to contribute:
 
 1.Fork the repository.
    - Create a new branch
@@ -442,4 +442,4 @@ We welcome contributions to the Saas-Podcast-Platform! If you have any ideas, su
    - Open a pull request.
 
 ## <a name="contact">Contact</a>
-For any questions or inquiries, please contact us at theofficialjaivp@gmail.com.
+For any questions or inquiries, please contact me at theofficialjaivp@gmail.com.
